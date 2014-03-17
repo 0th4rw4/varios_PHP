@@ -1,0 +1,65 @@
+/* - Reset - */
+* {margin:0; padding:0; border:0; vertical-align: bottom;}
+ul {	list-style: none;}
+ol {list-style-type: decimal; list-style-position: inside; margin:5px 9px;}
+p {font-size: 15px;}
+a {text-decoration: none; color:inherit;}
+a:hover, a:focus {text-decoration: underline; color: white;}	
+a:visited {text-decoration: none;}
+
+.clearfix:before, .clearfix:after{
+		content: "/0200";
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+.clearfix:after {clear: both;}
+	
+/* - General - */
+
+body {
+	color:black; 
+	font-family:Helvetica, Verdana, sans-serif;
+	background-color:orangered;
+}
+html,body,#contenedor{height: 100%;}
+body > #contenedor {height: auto; min-height: 92%;}
+#contenedor{width:940px; margin:auto; padding-bottom: 0;}
+
+#encabezado{text-align:center; background-color: black; color:whitesmoke; padding-top:30px; margin-bottom:15px;}
+	#encabezado a:hover, a:focus {text-decoration: none;}
+	#encabezado ul {text-align: left; margin-top:40px; background-color: darkgrey;}
+	#encabezado li { display: inline-block; margin:0 10px;}
+	#encabezado li a {display: block;  padding:6px; background-color: snow; color:black; font-weight: bold;}
+	
+	#contenido{float:left; width: 67%; background-color: white; padding:20px; border-radius:5px;}
+	#contenido-admin {background-color: white; padding:20px; border-radius:5px; margin:0 50px;}
+	
+	form {background-color: black; font-weight: bold; color:white; padding:20px; border-radius:5px;}
+	form div {margin:10px; text-align: center;}
+	form input[type="submit"], form input[type="reset"]{ padding:5px 10px; margin:10px; font-weight: bold; border-radius:5px;}
+	form .vistaPrevia {background-color: white; color:black; padding:20px; border-radius:5px;}
+	
+	#galeria-menu {background-color: black; margin:20px 0; padding:5px; }
+	#galeria-menu li {display: inline-block; margin:0 10px;}
+	#galeria-menu a {display: block; background-color: white; padding:5px; font-weight: bold;}
+	#galeria-menu .aqui {color:black; background-color: lightgrey;}
+	
+	#porfolio {position:relative;}
+	#porfolio .muestras {float:left;  margin:15px; text-align: center;}
+	#porfolio .muestras img {height: 150px;}
+	
+	#porfolio .ampliar {height: 300px; position: absolute; top:5%; left:10%; border:solid 10px black; border-radius:6px; }
+	#porfolio .ampliar p {text-align: center; background-color: white; color:black; padding:3px; margin-top: px; border:solid 6px black; border-radius:6px;}
+	#porfolio .ampliar img {height: 300px; }
+
+	#lateral {float:right ; width: 25%; background-color: snow; border-radius:5px;}
+	#lateral > div {background-color: snow; margin:10px; padding:5px; border-radius:5px;}
+	#lateral p {text-align: right; font-weight: bold;} 
+	#lateral ul { margin:5px; text-align: left;}
+	#lateral li {display: inline-block; margin: 0 5px;}
+	
+		
+#pie {background-color: black; color:white; text-align: center; padding:15px 0; margin-top:15px;}
+	
