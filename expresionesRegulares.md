@@ -1,5 +1,4 @@
-## 
-Validar campos
+## Validar campos
 
 #### Email: 
 `/^[\w\-\_\.]{3}[a-z0-9A-Z\-\_\.]*[@][\w]{3}[\w\-\_\.]*[\.]?[\w]{2,4}$/`
